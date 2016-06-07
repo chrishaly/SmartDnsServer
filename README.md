@@ -4,7 +4,7 @@ this is just a DNS Proxy Server.
 
 your can configurate rules to decide which DNS Server to resolve a domain by Regular Expression.
 
-
+```
 <?xml version="1.0" encoding="utf-16"?>
 <DnsConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Clients>
@@ -35,3 +35,4 @@ your can configurate rules to decide which DNS Server to resolve a domain by Reg
 		</DnsClientMappingConfig>
 	</Mappings>
 </DnsConfig>
+```
